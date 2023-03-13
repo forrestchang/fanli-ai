@@ -50,7 +50,7 @@ export const ChatInput: FC<Props> = ({ onSend }) => {
         ref={textareaRef}
         className="min-h-[44px] rounded-lg pl-4 pr-12 py-2 w-full focus:outline-none focus:ring-1 focus:ring-neutral-300 border-2 border-neutral-200"
         style={{ resize: "none" }}
-        placeholder="Type a message..."
+        placeholder="请输入您的问题..."
         value={content}
         rows={1}
         onChange={handleChange}
